@@ -1,0 +1,12 @@
+html, body { box-sizing: border-box; margin: 0 auto; }
+
+.container { width: 100%; display: grid; grid-template-rows: repeat(5, 1fr); }
+
+.logo_menu { width: 1160px; margin: 0 auto; display: grid; grid-template-columns: 0.8fr 2.5fr; }
+.logo_menu img { width: 250px; height: auto; }
+
+.menu ul { margin-top: 30px; }
+.menu ul li:first-child { border: none; }
+.menu ul li { display: inline-block; list-style: none; line-height: 18px; color: #444e56; font-size: 20px; font-family: "Segoe UI",Roboto; font-weight: lighter; padding: 10px 15px; border-left: 1px solid #e3e5e6; height: 20px; }
+
+/*# sourceMappingURL=prasus.css.map */
